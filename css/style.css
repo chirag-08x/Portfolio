@@ -13,11 +13,13 @@
     --clr-primary4 : #f4e1b8;
     --clr-primary5 : #e9b949;
     --clr-primary6 : #fffaeb;
+    --clr-primary7 : #fceec5;
     --clr-white : #fff;
     --clr-dark : #211c1e;
     --clr-lightgrey : #617d98;
     --clr-lightgrey2 : #f1f5f8;
     --clr-darkgrey : #102a42;
+    --clr-brown : #513c06;
     --font-primary : 'Roboto', sans-serif;;
     --font-secondary : 'Open Sans', sans-serif;
     --spacing : 0.22rem;
@@ -765,6 +767,126 @@ Connect
     }
 
     .connect-subtitle{
+        font-size: 1rem;
+    }
+}
+
+
+/* 
+============
+Skills
+============
+*/
+
+.skills{
+    background: var(--clr-primary7);
+    padding: 4rem 0;
+}
+
+.skill-heading{
+    text-align: center;
+    font-family: var(--font-primary);
+    letter-spacing: var(--spacing);
+    text-transform: capitalize;
+    color: var(--clr-dark);
+    font-size: 2rem;
+
+}
+
+.skills-underline{
+    margin: 0 auto;
+}
+
+.skill-title{
+    font-family: var(--font-primary);
+    font-size: 1.35rem;
+    color: var(--clr-brown);
+    letter-spacing: var(--spacing);
+    text-transform: capitalize;
+}
+
+.skill-subtitle{
+    font-family: var(--font-secondary);
+    color: var(--clr-brown);
+    font-size: 0.875rem;
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+.skill-outline{
+    height: 1rem;
+    border-radius: 0.6rem;
+    background: var(--clr-white);
+}
+
+.skill-sixty{
+    height: 100%;
+    width: 60%;
+    background: var(--clr-primary5);
+    border-radius: 0.6rem;
+}
+
+.skill-seventy{
+    height: 100%;
+    width: 70%;
+    background: var(--clr-primary5);
+    border-radius: 0.6rem;
+}
+
+.skill-eighty{
+    height: 100%;
+    width: 80%;
+    background: var(--clr-primary5);
+    border-radius: 0.6rem;
+}
+
+.skill-center{
+    display: grid;
+    gap: 2rem 0;
+    margin-top: 4rem;
+}
+
+.skill-domain{
+    display: grid;
+    gap: 1.5rem;
+    align-content: start;
+}
+
+.skill-percent{
+    position: absolute;
+}
+
+.skill-percent-60{
+    left: 60%;
+    transform: translateX(-50%);
+}
+
+.skill-percent-70{
+    left: 70%;
+    transform: translateX(-50%);
+}
+
+.skill-percent-80{
+    left: 80%;
+    transform: translateX(-50%);
+}
+
+@media screen and (min-width : 768px){
+    .skill-center{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem 2.5rem;
+    }
+
+    .skill-heading{
+        font-size: 2.5rem;
+    }
+
+    .skill-title{
+        font-size: 1.9rem;
+    }
+
+    .skill-subtitle{
         font-size: 1rem;
     }
 }
