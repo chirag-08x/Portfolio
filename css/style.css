@@ -572,6 +572,7 @@ Projects
     font-family : var(--font-primary);
     font-size: 2rem;
     letter-spacing: var(--spacing);
+    text-align: center;
 }
 
 .project-subtitle{
@@ -579,9 +580,10 @@ Projects
     font-size: 0.88rem;
     color: var(--clr-lightgrey);
     line-height: 1.5;
-    width: 85vh;
+    width: 85vw;
     max-width: 30rem;
     margin: 0 auto;
+    text-align: center;
 }
 
 .project-center{
@@ -1000,4 +1002,38 @@ Timeline
     .timeline-text{
         font-size: 1rem;
     }
+}
+
+
+/*
+==========
+Footer
+==========
+*/
+
+.footer{
+    background: var(--clr-dark);
+    padding: 3.5rem 0;
+}
+
+.footer-icons{
+    margin: 0 auto;
+}
+
+.footer-icons a{
+    color: var(--clr-primary2);
+    margin: 0 auto;
+}
+
+.footer-info{
+    margin-top: 2rem;
+}
+
+.footer-text{
+    text-align: center;
+    color: var(--clr-lightgrey);
+    font-family: var(--font-secondary);
+    text-transform: capitalize;
+    letter-spacing: var(--spacing);
+    font-size: 1.2rem;
 }
