@@ -1141,3 +1141,97 @@ Contact Single Page
     }
 
 }
+
+
+/* 
+==============
+Projects
+==============
+*/
+
+.prjct-heading{
+    background: var(--clr-primary);
+    padding: 5rem 0;
+}
+
+.prjct-heading h1{
+    text-align: center;
+    font-size: 3rem;
+    font-family: var(--font-primary);
+    text-transform: capitalize;
+    color: var(--clr-darkgrey);
+    letter-spacing: var(--spacing);
+}
+
+.prjct-center{
+    padding: 4rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    gap: 2.5rem 2rem;
+}
+
+.prjct-info{
+    padding: 2rem 1.5rem;
+}
+
+.prjct{
+    background: var(--clr-lightgrey2);
+    position: relative;
+    border-radius: 0.6rem;
+}
+
+.prjct-icon{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.8rem;
+    color: var(--clr-brown);
+    background: var(--clr-primary2);
+    border-radius: 50%;
+    padding: 0.6rem;
+    border: 0.32rem solid var(--clr-white);
+}
+
+.prjct-img img{
+    border-radius: 0.4rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    object-fit: cover;
+    min-height: 16rem;
+}
+
+.prjct-name{
+    font-family: var(--font-primary);
+    text-transform: capitalize;
+    letter-spacing: var(--spacing);
+    font-size: 0.875rem;
+    color: var(--clr-primary5);
+    border-bottom: 2px solid tan;
+    padding: 0.2rem;
+    display: inline-block;
+}
+
+.prjct-subtitle{
+    margin: 1rem 0;
+    font-family: var(--font-secondary);
+    font-size: 0.875rem;
+    color: var(--clr-lightgrey);
+    line-height: 1.5;
+}
+
+.source-code{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.source-code a{
+    color: var(--clr-primary5);
+}
+
+.code-link{
+    justify-self: end;
+    font-family: var(--font-secondary);
+    text-transform: capitalize;
+    color: var(--clr-primary5);
+    font-size: 0.94rem;
+}
